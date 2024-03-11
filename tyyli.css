@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    color: #f9ef23; /* Tekstin väri muutettu keltaiseksi */
+    background-color: #000000;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+header h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    text-shadow: 4px 4px #f9ef23;
+}
+
+figure {
+    border: 10px #f9ef23 solid; /* Keltaisen reunan säilyttäminen */
+    padding: 10px;
+    margin: auto; /* Keskittää elementin */
+    border-radius: 30px; /* Pyöristetyt kulmat */
+    background-color: #000; /* Taustaväri, voi muuttaa tarpeen mukaan */
+    display: inline-block; /* Tehdään figure-elementistä inline-block, jotta se ei vie koko leveyttä */
+}
+
+figcaption {
+    background-color: #f9ef23; /* Keltainen tausta tekstile */
+    color: #000000; /* Tekstin väri */
+    padding: 2px;
+    text-align: center; /* Tekstin keskitys */
+    font-size: 1em; /* Tekstin koon säätö, voi muuttaa tarpeen mukaan */
+}
+#personal-trainer {
+    max-width: 100%;
+    height: auto;
+}
+
+.esittely, nav a, h1, #toimintakehote, .yhteystiedot-bg p, footer p, footer a {
+    background-color: #f9ef23;
+    color: #000000;
+}
+
+.keltainenTeksti {
+    color: #f9ef23; /* Tämä sääntö varmistaa, että kaikki .keltainenTeksti-luokan elementit ovat keltaisia */
+}
+
+header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#personal-trainer {
+    max-width: 350px;
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+nav a:hover {
+    background-color: #e2e4ba;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 2vw;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9ef23;
+    display: flex;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-around;
+    color: #000000;
+    text-align: center;
+}
+
+#salimies {
+    width: 400px; /* Leveys */
+    height: auto; /* Korkeus säilyttäen mittasuhteet */
+}
+
+#toimintakehote {
+    background-color: #f9ef23;
+    color: #000000;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.alisivu-sisalto {
+    background-color: #f9ef23;
+    color: #000000;
+}
+
+.yhteystiedot-bg p {
+    background-color: #f9ef23;
+    color: #000000;
+    margin: 0;
+    padding: 10px;
+}
