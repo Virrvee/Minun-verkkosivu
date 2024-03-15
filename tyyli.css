@@ -96,7 +96,7 @@ footer {
     height: auto; /* Korkeus säilyttäen mittasuhteet */
 }
 
-#toimintakehote {
+.toimintakehote {
     background-color: #f9ef23;
     color: #000000;
     padding: 16px 32px;
